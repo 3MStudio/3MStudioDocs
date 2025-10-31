@@ -1,6 +1,6 @@
 ---
 title: Configuration
-parent: Stands
+parent: stands
 nav_order: 3
 ---
 
