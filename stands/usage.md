@@ -1,5 +1,5 @@
 ---
-title: Configuration
+title: Usage
 parent: stands
 nav_order: 3
 ---
