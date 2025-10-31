@@ -1,7 +1,7 @@
 ---
 title: 3M Studio — Documentation
 layout: default
-nav_order: 4
+nav_order: 1
 ---
 
 <div class="hero">
