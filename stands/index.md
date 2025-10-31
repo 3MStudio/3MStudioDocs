@@ -1,5 +1,5 @@
 ---
-title: Stands
+title: stands
 has_children: true
 nav_order: 1
 ---
