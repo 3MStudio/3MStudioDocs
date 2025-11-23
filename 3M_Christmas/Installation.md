@@ -11,17 +11,12 @@ nav_order: 2
 1. Place the resource folder in your server resources, for example:
 
    ```text
-   resources/[3m]/Christmas
+   resources/[3m]/3M_ChristmasAddons
+   resources/[3m]/3M_Christmas
    ```
 
-2. Make sure the folder name you use in the server is consistent (e.g. `Christmas`).  
-   You’ll use this name for exports like:
+2. Make sure that addon folder is started before script as there are assets that needs to load before script.
 
-   ```lua
-   exports['Christmas']:Notify(...)
-   ```
-
----
 
 ## 2. Dependencies
 
