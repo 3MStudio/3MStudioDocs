@@ -190,44 +190,7 @@ You might use it if you need to re-sync weather for a specific player after some
 
 ---
 
-### 3.5 Food events
 
-From `server/main.lua` QBCore usable item handlers:
-
-- When a QBCore player uses `santa_cookie`:
-
-  ```lua
-  TriggerClientEvent('xmas:food:UseSantaCookie', source)
-  ```
-
-- When they use `candy_cane`:
-
-  ```lua
-  TriggerClientEvent('xmas:food:UseCandyCane', source)
-  ```
-
-These client events are **intentionally left for you** to implement effects such as:
-
-- Health/armor regen
-- Stress reduction
-- Small speed boost
-- Screen FX, etc.
-
-Example handler in another resource:
-
-```lua
--- client side, in your own script:
-RegisterNetEvent('xmas:food:UseSantaCookie', function()
-    -- Example: heal a bit and reduce stress
-    -- integrate with your own framework/exports
-end)
-
-RegisterNetEvent('xmas:food:UseCandyCane', function()
-    -- Example: quick speed buff
-end)
-```
-
----
 
 ## 4. Client events you may want to listen to
 
