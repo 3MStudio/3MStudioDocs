@@ -17,3 +17,4 @@ nav_order: 1
 - [Beekeeper](beekeeper/index.md)
 - [Hitman](hitman/index.md)
 - [Stands](stands/index.md)
+- [Christmas](3M_Christmas/index.md)
