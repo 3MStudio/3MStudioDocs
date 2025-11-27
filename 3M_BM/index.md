@@ -68,9 +68,4 @@ Players can browse a secret weapon & contraband shop, pay with black money, rece
 
 ---
 
-## Documentation
-
-- [Installation](installation.md)
-- [Configuration](config.md)
-- [Usage](usage.md)
 
