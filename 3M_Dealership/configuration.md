@@ -1,5 +1,5 @@
 ---
-title: Usage & Gameplay
+title: Configuration
 parent: 3M_Dealership
 nav_order: 2
 ---
