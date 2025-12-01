@@ -144,32 +144,4 @@ If a seller is online when a consigned vehicle is sold, they can be notified and
 
 The script also supports an `payouts_offline` queue table for implementing your own delayed payout logic if needed.
 
----
 
-## Admin & staff tools
-
-### Admin command
-
-```text
-/deal_admin
-```
-
-- Defined in `server/admin.lua`.
-- Requires the player to be in a group listed in `Config.Admin.Groups` (check your config).
-- Opens the admin NUI panel hook (you can expand this to manage showroom vehicles, prices, etc.).
-
-You can extend the admin interface with your own controls, using the existing callbacks and utilities in:
-
-- `server/main.lua`
-- `server/market.lua`
-- `server/finance.lua`
-- `server/consignment.lua`
-
----
-
-## Tips & best practices
-
-- Keep `Config.Finance.Debug` enabled on dev/staging servers to see detailed logs in console.
-- Start by testing with **one** dealership entry and expand once everything is verified.
-- Regularly review `vehicle_market` and `vehicle_loans` tables to keep an eye on your economy.
-- Use webhook logs to trace suspicious activity (e.g. repeated cheap flips on the used lot).
